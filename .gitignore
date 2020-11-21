@@ -1,0 +1,12 @@
+scripts/
+files/
+thumbs/
+phpmy/
+tmp/
+*.bak
+*.tgz
+*.zip
+*.rar
+*.log
+.DS_Store
+config.php
