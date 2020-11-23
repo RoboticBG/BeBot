@@ -211,12 +211,12 @@
 		<div id="canvas_container">
 			<div id="keyboard_control">
 				<div class="row">
-					<div id="up" class="arrows bg-dark text-white">I (Up)</div>
+					<div id="up" class="arrows bg-dark text-white">I (Forward)</div>
 				</div>
 				<div class="row">
 					<div id="wrapper">
 						<div id="left" class="arrows bg-dark text-white">J (Left)</div>
-						<div id="down" class="arrows bg-dark text-white">M (Down)</div>
+						<div id="down" class="arrows bg-dark text-white">M (Backward)</div>
 						<div id="right" class="arrows bg-dark text-white">K (Right)</div>
 				</div>
 			</div>	
