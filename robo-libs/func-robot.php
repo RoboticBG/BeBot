@@ -121,6 +121,7 @@ function read_sensor($sensor=1)
 	  $tmp = file_get_contents('/dev/shm/sensor.txt');
     $vals=explode("=",$tmp);
     $result=(int)$vals[1];
+    if ($result>0) $result=round($result/10); // make output in centimeters
     return $result;
 }
 
