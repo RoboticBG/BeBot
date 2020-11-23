@@ -9,7 +9,7 @@ $pdesc = array(
     2 => array('pipe', 'r'), // 2 is STDERR for process
 );
 
-function say($text="1 2 3",$lang="bg",$pitch=10,$gap=7,$speed=140)
+function say($text="1 2 3",$lang="bg",$pitch=10,$gap=7,$speed=170)
 { 
     global $debug;
     $pitch=(int)$pitch;
